@@ -1,0 +1,86 @@
+{
+    "Hyderabad": {
+        "name": "Hyderabad",
+        "coordinates": [
+            17.385,
+            78.4867
+        ],
+        "environmental_condition": "Good",
+        "Risk_level": "Moderate Risk",
+        "Cancer Percentage": "30%",
+        "Chronic Illness Percentage": "30%",
+        "Mortality Rate": "15%",
+        "Number of Hospitals": "15",
+        "Cancer Care Centers": "5",
+        "Health Insurance Coverage": "40%"
+    },
+    "Delhi": {
+        "name": "Delhi",
+        "coordinates": [
+            28.6139,
+            77.209
+        ],
+        "environmental_condition": "Moderate",
+        "Risk_level": "High Risk",
+        "Cancer Percentage": "45%",
+        "Chronic Illness Percentage": "40%",
+        "Mortality Rate": "20%",
+        "Number of Hospitals": "35",
+        "Cancer Care Centers": "12",
+        "Health Insurance Coverage": "50%"
+    },
+    "Jaipur": {
+        "name": "Jaipur",
+        "coordinates": [
+            26.9124,
+            75.7873
+        ],
+        "environmental_condition": "Poor",
+        "Risk_level": "High",
+        "Cancer Percentage": "50%",
+        "Chronic Illness Percentage": "55%",
+        "Mortality Rate": "22%",
+        "Number of Hospitals": "18",
+        "Cancer Care Centers": "7",
+        "Health Insurance Coverage": "35%"
+    },
+    "Chennai": {
+        "coordinates": [
+            13.0836939,
+            80.270186
+        ],
+        "Risk_level": "No data yet",
+        "Cancer Percentage": "50%",
+        "Chronic Illness Percentage": "N/A",
+        "Mortality Rate": "N/A",
+        "Number of Hospitals": "N/A",
+        "Cancer Care Centers": "N/A",
+        "Health Insurance Coverage": "N/A"
+    },
+    "Indore": {
+        "coordinates": [
+            22.7203616,
+            75.8681996
+        ],
+        "Risk_level": "Moderate Risk",
+        "Cancer Percentage": "45%",
+        "Chronic Illness Percentage": "30%",
+        "Mortality Rate": "15%",
+        "Number of Hospitals": "15",
+        "Cancer Care Centers": "5",
+        "Health Insurance Coverage": "40%"
+    },
+    "Patna": {
+        "coordinates": [
+            25.6093239,
+            85.1235252
+        ],
+        "Risk_level": "Low Risk",
+        "Cancer Percentage": "75%",
+        "Chronic Illness Percentage": "25%",
+        "Mortality Rate": "18%",
+        "Number of Hospitals": "15",
+        "Cancer Care Centers": "8",
+        "Health Insurance Coverage": "30%"
+    }
+}

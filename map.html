@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_452f803b7f54c0e6b9599cfa95fa210d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_452f803b7f54c0e6b9599cfa95fa210d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_452f803b7f54c0e6b9599cfa95fa210d = L.map(
+                "map_452f803b7f54c0e6b9599cfa95fa210d",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d77062025a10e7838fdcbd70ebf0c2f0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d77062025a10e7838fdcbd70ebf0c2f0.addTo(map_452f803b7f54c0e6b9599cfa95fa210d);
+        
+    
+            var marker_31e66a10d95cd85066f8cb627999582e = L.marker(
+                [17.360589, 78.4740613],
+                {
+}
+            ).addTo(map_452f803b7f54c0e6b9599cfa95fa210d);
+        
+    
+            var icon_c20efc958186ac19a90bf0ecc9fcf08b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6081affa3f737f808e2a82a194b7973 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_8644e35e54ff11139f125001e8b2e68c = $(`<div id="html_8644e35e54ff11139f125001e8b2e68c" style="width: 100.0%; height: 100.0%;">             <b>Hyderabad</b><br>             Risk Level: Moderate Risk<br>             Cancer Percentage: 30%<br>             Chronic Illness Percentage: 30%<br>             Mortality Rate: 15%<br>             Number of Hospitals: 15<br>             Cancer Care Centers: 5<br>             Health Insurance Coverage: 40%             </div>`)[0];
+                popup_b6081affa3f737f808e2a82a194b7973.setContent(html_8644e35e54ff11139f125001e8b2e68c);
+            
+        
+
+        marker_31e66a10d95cd85066f8cb627999582e.bindPopup(popup_b6081affa3f737f808e2a82a194b7973)
+        ;
+
+        
+    
+    
+            marker_31e66a10d95cd85066f8cb627999582e.bindTooltip(
+                `<div>
+                     Hyderabad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_31e66a10d95cd85066f8cb627999582e.setIcon(icon_c20efc958186ac19a90bf0ecc9fcf08b);
+            
+    
+            var marker_d72ed4a187e2ad2175b278ed75ab1115 = L.marker(
+                [28.6273928, 77.1716954],
+                {
+}
+            ).addTo(map_452f803b7f54c0e6b9599cfa95fa210d);
+        
+    
+            var icon_41968038512aa013c5980d2b9a9f7f22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_439220f3939293c812cfa4a6b5f0038b = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_cca93548ba9501854f5f507cc77c1e2e = $(`<div id="html_cca93548ba9501854f5f507cc77c1e2e" style="width: 100.0%; height: 100.0%;">             <b>Delhi</b><br>             Risk Level: High Risk<br>             Cancer Percentage: 45%<br>             Chronic Illness Percentage: 40%<br>             Mortality Rate: 20%<br>             Number of Hospitals: 35<br>             Cancer Care Centers: 12<br>             Health Insurance Coverage: 50%             </div>`)[0];
+                popup_439220f3939293c812cfa4a6b5f0038b.setContent(html_cca93548ba9501854f5f507cc77c1e2e);
+            
+        
+
+        marker_d72ed4a187e2ad2175b278ed75ab1115.bindPopup(popup_439220f3939293c812cfa4a6b5f0038b)
+        ;
+
+        
+    
+    
+            marker_d72ed4a187e2ad2175b278ed75ab1115.bindTooltip(
+                `<div>
+                     Delhi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d72ed4a187e2ad2175b278ed75ab1115.setIcon(icon_41968038512aa013c5980d2b9a9f7f22);
+            
+    
+            var marker_f9be36327116a413f30902c9108a4216 = L.marker(
+                [26.9154576, 75.8189817],
+                {
+}
+            ).addTo(map_452f803b7f54c0e6b9599cfa95fa210d);
+        
+    
+            var icon_5573d704cbcb3c607cba0e9310a39f68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31b37182cdf802a0090174bb50c637b9 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_9f733377cd3d8c800f3cebf8d2a9eb0d = $(`<div id="html_9f733377cd3d8c800f3cebf8d2a9eb0d" style="width: 100.0%; height: 100.0%;">             <b>Jaipur</b><br>             Risk Level: High<br>             Cancer Percentage: 50%<br>             Chronic Illness Percentage: 55%<br>             Mortality Rate: 22%<br>             Number of Hospitals: 18<br>             Cancer Care Centers: 7<br>             Health Insurance Coverage: 35%             </div>`)[0];
+                popup_31b37182cdf802a0090174bb50c637b9.setContent(html_9f733377cd3d8c800f3cebf8d2a9eb0d);
+            
+        
+
+        marker_f9be36327116a413f30902c9108a4216.bindPopup(popup_31b37182cdf802a0090174bb50c637b9)
+        ;
+
+        
+    
+    
+            marker_f9be36327116a413f30902c9108a4216.bindTooltip(
+                `<div>
+                     Jaipur
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f9be36327116a413f30902c9108a4216.setIcon(icon_5573d704cbcb3c607cba0e9310a39f68);
+            
+    
+            var marker_3458d7c6c87e575701a7e7d8a81bbb2d = L.marker(
+                [13.0836939, 80.270186],
+                {
+}
+            ).addTo(map_452f803b7f54c0e6b9599cfa95fa210d);
+        
+    
+            var icon_bd737e30b137df0898523183eb59e209 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a1d6493c566b44e6b52cd5c78083b009 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_b39da75b1e8229f958857566b96e6983 = $(`<div id="html_b39da75b1e8229f958857566b96e6983" style="width: 100.0%; height: 100.0%;">             <b>Chennai</b><br>             Risk Level: No data yet<br>             Cancer Percentage: 50%<br>             Chronic Illness Percentage: N/A<br>             Mortality Rate: N/A<br>             Number of Hospitals: N/A<br>             Cancer Care Centers: N/A<br>             Health Insurance Coverage: N/A             </div>`)[0];
+                popup_a1d6493c566b44e6b52cd5c78083b009.setContent(html_b39da75b1e8229f958857566b96e6983);
+            
+        
+
+        marker_3458d7c6c87e575701a7e7d8a81bbb2d.bindPopup(popup_a1d6493c566b44e6b52cd5c78083b009)
+        ;
+
+        
+    
+    
+            marker_3458d7c6c87e575701a7e7d8a81bbb2d.bindTooltip(
+                `<div>
+                     Chennai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3458d7c6c87e575701a7e7d8a81bbb2d.setIcon(icon_bd737e30b137df0898523183eb59e209);
+            
+    
+            var marker_3b50ca72f9c52947d1b89ea4b29b7b52 = L.marker(
+                [22.7203616, 75.8681996],
+                {
+}
+            ).addTo(map_452f803b7f54c0e6b9599cfa95fa210d);
+        
+    
+            var icon_ab1af860019dc046e6126d559ba34176 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7d9ef327a6d9953f25ebf162d59fbda = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_eb844883b95d8fe2f69882c2f90c54ea = $(`<div id="html_eb844883b95d8fe2f69882c2f90c54ea" style="width: 100.0%; height: 100.0%;">             <b>Indore</b><br>             Risk Level: Moderate Risk<br>             Cancer Percentage: 45%<br>             Chronic Illness Percentage: 30%<br>             Mortality Rate: 15%<br>             Number of Hospitals: 15<br>             Cancer Care Centers: 5<br>             Health Insurance Coverage: 40%             </div>`)[0];
+                popup_c7d9ef327a6d9953f25ebf162d59fbda.setContent(html_eb844883b95d8fe2f69882c2f90c54ea);
+            
+        
+
+        marker_3b50ca72f9c52947d1b89ea4b29b7b52.bindPopup(popup_c7d9ef327a6d9953f25ebf162d59fbda)
+        ;
+
+        
+    
+    
+            marker_3b50ca72f9c52947d1b89ea4b29b7b52.bindTooltip(
+                `<div>
+                     Indore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3b50ca72f9c52947d1b89ea4b29b7b52.setIcon(icon_ab1af860019dc046e6126d559ba34176);
+            
+    
+            var marker_1d87cbc4c7d901ce5adffedf39dcb426 = L.marker(
+                [25.6093239, 85.1235252],
+                {
+}
+            ).addTo(map_452f803b7f54c0e6b9599cfa95fa210d);
+        
+    
+            var icon_96a20e6260fd535786f746b06e6cfc5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6a426de40b7ca873efe52132eccf056 = L.popup({
+  "maxWidth": 500,
+});
+
+        
+            
+                var html_4b4a517998f2d727a9ecbca6f32dbd22 = $(`<div id="html_4b4a517998f2d727a9ecbca6f32dbd22" style="width: 100.0%; height: 100.0%;">             <b>Patna</b><br>             Risk Level: Low Risk<br>             Cancer Percentage: 75%<br>             Chronic Illness Percentage: 25%<br>             Mortality Rate: 18%<br>             Number of Hospitals: 15<br>             Cancer Care Centers: 8<br>             Health Insurance Coverage: 30%             </div>`)[0];
+                popup_a6a426de40b7ca873efe52132eccf056.setContent(html_4b4a517998f2d727a9ecbca6f32dbd22);
+            
+        
+
+        marker_1d87cbc4c7d901ce5adffedf39dcb426.bindPopup(popup_a6a426de40b7ca873efe52132eccf056)
+        ;
+
+        
+    
+    
+            marker_1d87cbc4c7d901ce5adffedf39dcb426.bindTooltip(
+                `<div>
+                     Patna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d87cbc4c7d901ce5adffedf39dcb426.setIcon(icon_96a20e6260fd535786f746b06e6cfc5e);
+            
+</script>
+</html>
